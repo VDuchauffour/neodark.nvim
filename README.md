@@ -1,5 +1,9 @@
-<h2 align>neodark.nvim</h2>
-<p align=center>Simple onedark based colorscheme for Neovim.</p>
+<h1 align=center>neodark.nvim</h2>
+<h3 align=center>Simple onedark based colorscheme for Neovim.</h3>
+
+
+![alt text](showcase.png?raw=true "Showcase")
+
 <div align=center> 
 	<a href="#Introduction">Introduction</a>
 		<span> • </span>
@@ -13,8 +17,6 @@
 		<p></p>
 </div>
 
-![alt text](showcase.png?raw=true "Showcase")
-
 ### Introduction
 
 This theme provide the [AstroVim](https://github.com/kabinspace/AstroVim) colorscheme, itself based on the [Onedark](https://atom.io/themes/one-dark-ui) theme.
@@ -26,7 +28,7 @@ A _darker_ version of this theme is also provided.
 
 Install the theme with your preferred package manager:
 
-[packer](https://github.com/wbthomason/packer.nvim)
+- [Packer](https://github.com/wbthomason/packer.nvim):
 
 ```lua
 use "VDuchauffour/neodark.nvim"
@@ -37,15 +39,15 @@ use "VDuchauffour/neodark.nvim"
 - In vimscript:
 
 ```vim
-colorscheme onedarker
+colorscheme neodark
 ```
 
 - In lua:
 
 ```lua
-vim.cmd 'colorscheme onedarker'
--- Or
-require("github-theme").setup({
+vim.cmd 'colorscheme neodark'
+-- or
+require("neodark").setup({
   theme_style = "neodarker"
 })
 ```
