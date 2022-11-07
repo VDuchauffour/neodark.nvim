@@ -9,17 +9,17 @@ function nvimtree.setup(palette)
     NvimTreeEndOfBuffer = { fg = palette.blue_2 },
     NvimTreeNormal = { bg = palette.blue_2 },
     NvimTreeNormalNC = { bg = palette.blue_2 },
-    NvimTreeWindowPicker = { fg = palette.fg, bg = palette.blue_2, gui = 'bold' },
     NvimTreeVertSplit = { fg = palette.blue_2, bg = palette.blue_2 },
     NvimTreeImageFile = { fg = palette.purple },
     NvimTreeSymlink = { fg = palette.cyan },
-    NvimTreeSpecialFile = { fg = palette.yellow },
+    NvimTreeSpecialFile = { fg = palette.gold },
     NvimTreeGitDeleted = { fg = palette.red_1 },
     NvimTreeGitMerge = { fg = palette.orange },
     NvimTreeGitRenamed = { fg = palette.purple },
     NvimTreeGitStaged = { fg = palette.green },
     NvimTreeGitDirty = { fg = palette.yellow },
     NvimTreeGitNew = { fg = palette.green },
+    NvimTreeWindowPicker = { fg = palette.fg, bg = palette.blue_2, gui = 'bold' },
   }
 
   return nvimtree_

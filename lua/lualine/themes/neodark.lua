@@ -36,7 +36,7 @@ lualine.replace = {
 
 lualine.inactive = {
   a = { bg = palette.blue_2, fg = palette.blue },
-  b = { bg = palette.blue_2, fg = palette.fg, gui = 'bold' },
+  b = { bg = palette.blue_2, fg = palette.fg },
   c = { bg = palette.blue_2, fg = palette.fg },
 }
 

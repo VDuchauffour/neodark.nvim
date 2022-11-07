@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.3.0
     hooks:
     -   id: check-added-large-files
     -   id: check-case-conflict
@@ -17,10 +17,10 @@ repos:
     -   id: fix-byte-order-marker
     -   id: trailing-whitespace
 -   repo: https://github.com/lunarmodules/luacheck.git
-    rev: master
+    rev: v1.0.0
     hooks:
     -   id: luacheck
 -   repo: https://github.com/JohnnyMorganz/StyLua.git
-    rev: v0.12.4
+    rev: v0.15.2
     hooks:
     -   id: stylua

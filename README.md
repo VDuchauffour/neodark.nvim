@@ -4,7 +4,7 @@
 
 ![alt text](showcase.png?raw=true "Showcase")
 
-<div align=center> 
+<div align=center>
 	<a href="#Introduction">Introduction</a>
 		<span> • </span>
   <a href="#Installation-and-usage">Installation and usage</a>
@@ -67,6 +67,9 @@ require("neodark").setup({
 - Fuzzy finding with [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Personal Wiki for Vim with [VimWiki](https://github.com/vimwiki/vimwiki)
 - Display a popup with possible keybindings with [Which Key](https://github.com/folke/which-key.nvim)
+- Adds icons to your plugins with [Nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
+- Rainbow parentheses for neovim using tree-sitter with [Nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+- A code outline window for skimming and quick navigation with [Aerial](https://github.com/stevearc/aerial.nvim)
 
 ### Terminal themes
 
