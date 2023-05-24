@@ -2,7 +2,7 @@
 <h3 align=center>Simple onedark based colorscheme for Neovim.</h3>
 
 
-![alt text](showcase.png?raw=true "Showcase")
+![alt text](.github/assets/showcase.png?raw=true "Showcase")
 
 <div align=center>
 	<a href="#Introduction">Introduction</a>
